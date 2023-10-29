@@ -16,7 +16,7 @@ describe("buzz functionality ", () => {
       loginObj.loginValid(logininfo[0].Username, logininfo[0].Password);
       cy.writeFile(
         "cypress/fixtures/post-data.txt",
-        " ++++HELlO WORLD FROME CYPRESS+++ "
+        " +*+++HELlO WORLD FROME CYPRESS++*+ "
       );
     });
   });
